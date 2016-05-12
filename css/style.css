@@ -117,6 +117,18 @@ form {
   border: 0px;		
 }
 
+.iconos {
+  -webkit-transition: 1.3s ease-in-out;
+  -moz-transition: 1.3s ease-in-out;
+  -o-transition: 1.3s ease-in-out;
+  transition: 1.3s ease-in-out;
+}
+
+.iconos:hover{ 
+  -webkit-transform: scale(1.35);
+  transform: scale(1.35);
+}
+
 /****************** Services section Style ******************/
 .services {
 	text-align: center;
